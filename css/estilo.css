@@ -15,7 +15,7 @@ h1{
 
 	background-color:#ff00ff;
 	text-align:center; 
-	font-weight:1000; 
+	font-weight:700; 
 	font-size: 100px;
 }
 h2{
@@ -251,7 +251,7 @@ video{
 
 .item {
 	width:23%;
-	margin:1%;
+	margin:10%;
 	color:#333;
 	background:#F2EAE0;
 	box-shadow:0 0 5px rgb(240,240,240);
@@ -274,33 +274,6 @@ video{
 	transition:transform ease-out 1s;
 }
 
-.item: visited {
-	color: purple;
-}
-
-.item h4{
-	font-size:1em;
-	letter-spacing:0.025em;
-	margin:5% 5% 3% 5%;
-}
-
-.item p{
-	font-size:0.875em;
-	letter-spacing:0.05em;
-	margin:2% 5% 6% 5%;
-}
-
-.item {
-    height:200px;
-    width:200px;
-    background: url('../images/prueba2.jpeg');
-    margin:auto; /*position the [div] on the center*/
-  }
-  /*this is the hover event trigger*/
-  .item:hover {
-    cursor:pointer; 
-    background:url(https://i.makeagif.com/media/6-08-2016/ZAZQDf.gif);
-  }
 
 
 .item {
