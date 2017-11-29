@@ -6,14 +6,14 @@
 body{
 	font-family: 'Orator std', sans-serif;
 	font-weight:40;
-	background-image: url('../images/fondo.gif');
+	background-image: url('../images/fondonuevo.png');
 	background-repeat: repeat;
 	color:rgba(0,0,0,1);
 }
 
 h1{
 
-	background-color:#ff00ff;
+	
 	text-align:center; 
 	font-weight:700; 
 	font-size: 100px;
@@ -70,7 +70,7 @@ h3{letter-spacing:0.1em; color:#ffffff; padding:1em 0 0.6em 0; background-color:
 @-webkit-keyframes NAME-YOUR-ANIMATION {
   0%, 49% {
     background-color: rgb(0,255,0);
-    border: 30px solid #ff00ff;
+    border: 30px solid #ffff00;
   }
   50%, 100% {
     background-color: #ff00ff;
@@ -133,7 +133,7 @@ h3{letter-spacing:0.1em; color:#ffffff; padding:1em 0 0.6em 0; background-color:
 
 .popup h9 {
   margin-top: 0;
-  color: #ff00ff;
+  color: #00ffff;
   font-family: Orator std, sans-serif;
   text-align: center;
   font-size:40px;
@@ -161,6 +161,7 @@ h3{letter-spacing:0.1em; color:#ffffff; padding:1em 0 0.6em 0; background-color:
   overflow: auto;
   vertical-align: center;
   font-family: Lato, sans-serif;
+  color: #0000ff;
   display: inline-block;
   text-align: left;
   text-underline-position: under;
@@ -188,29 +189,6 @@ p{
 p:hover span{
     display:block;
 }
-
-
-
-h6 {
-	font-family: 'Skranji', cursive;
-	font-size: 120px;
-	font-weight:700;
-	color: white;
-	}
-
-h5{
-	font-family: 'Racing Sans One', cursive;
-	font-size: 80px;
-	font-weight:700;
-	color:white;
-	}
-p{
-	font-size: 43px;
-}
-
-
-
-
 
 #contenido{width:98%; margin:1% auto;}
 
@@ -246,20 +224,16 @@ video{
 	}
 
 
-
-
-
 .item {
 	width:23%;
 	margin:10%;
-	color:#333;
-	background:#F2EAE0;
+	color:#ffffff;
 	box-shadow:0 0 5px rgb(240,240,240);
 }
 
 .item figure{overflow:hidden;}
 
-.item figure img{width:100%; height:auto; margin-bottom:-4px;}
+.item figure img{width:100%; height:auto; margin:-4px;}
 
 .item:hover{cursor:zoom-in;}
 
@@ -277,11 +251,12 @@ video{
 
 
 .item {
-	width:23%;
+	width:20%;
 	margin:1%;
 	color:#333;
 	background:#F2EAE0;
-	box-shadow:0 0 5px rgb(240,240,240);
+	box-shadow:0 0 0px rgb(240,240,240);
+  border: 6px solid white;
 }
 
 .item figure{overflow:hidden;}
