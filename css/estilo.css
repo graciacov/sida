@@ -136,8 +136,8 @@ h3{letter-spacing:0.1em; color:#ffffff; padding:1em 0 0.6em 0; background-color:
 
 .popup h9 {
   margin-top: 0;
-  color: #00ffff;
-  font-family: Lato-Heavy, sans-serif;
+  color: #0000ff;
+  font-family: Orator std, sans-serif;
   text-align: center;
   font-size:40px;
 }
@@ -164,7 +164,7 @@ h3{letter-spacing:0.1em; color:#ffffff; padding:1em 0 0.6em 0; background-color:
   overflow: auto;
   vertical-align: center;
   font-family: Lato, sans-serif;
-  color: #0000ff;
+  color: #000000;
   display: inline-block;
   text-align: left;
   text-underline-position: under;
